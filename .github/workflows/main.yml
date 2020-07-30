@@ -32,4 +32,4 @@ jobs:
       run:  npm install -g surge
 
     - name: deploying site on surge
-      run:  surge ./ bootproj1.surge.sh -token ${{ sercrets.TOKENSURGE }}
+      run:  surge ./ bootproj1.surge.sh -token ${{ secrets.TOKENSURGE }}
